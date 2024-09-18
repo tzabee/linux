@@ -3,7 +3,7 @@
 set -e
 
 sudo apt update
-sudo apt install jq -y
+sudo apt install jq lsof -y
 
 flags_found=false
 

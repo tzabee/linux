@@ -2,8 +2,9 @@
 
 set -e
 
+echo "[INFO-Cabi] script.sh start"
 sudo apt update
-sudo apt install jq lsof -y
+sudo apt install jq lsof docker.io docker -y
 
 flags_found=false
 
